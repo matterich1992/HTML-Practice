@@ -14,28 +14,47 @@ html, body, h1, h2, h3, h4, p, div, ul, ol, li {
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-} */
+}*/
 
 body {
   border-style: none;
-  background-color: #01579B ;
+    background-color: #01579B ;
+
+}
+.navbar-default{
+  border-style: none;
 }
 
 .navbar{
   margin-bottom: 5px;
   background-color: #0288D1;
+
+
+}
+.navbar-default .navbar-toggle{
+  margin-top: 15px;
+  background-color:#1DE9B6;
+  border-style: none;
+
+}
+.navbar-default .navbar-toggle .icon-bar{
+  background-color:white;
 }
 
-.navbar-brand {
+
+.navbar-default .navbar-brand {
   margin-top: 10px;
   font-size: 125%;
   color: white;
   font-family: 'Varela Round', sans-serif;
 }
 
-  .navbar-right li a{
+.nav{
+ margin-right:10px;
+}
+
+.navbar-default .navbar-right li a{
   margin-top: 10px;
-  margin-right: 20px;
   font-size:80%;
   color:white;
   font-family: 'Varela Round', sans-serif;
@@ -44,12 +63,13 @@ body {
 .header {
   color: white;
   background-color:#0277BD;
-  font-family: "Helvetica Neue", sans-serif;
-  height:500px;
+  font-family: "Lato", sans-serif;
+  height:525px;
 }
 
 .name {
   margin-top: 150px;
+
 }
 .header h1{
   font-size: 200%;
