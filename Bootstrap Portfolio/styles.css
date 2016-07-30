@@ -8,7 +8,6 @@ html, body, h1, h2, h3, h4, p, div, ul, ol, li {
 /* {
     border: 1px solid red !important;
 }
-
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -29,7 +28,9 @@ body {
   margin-bottom: 5px;
   background-color: #0288D1;
 
-
+}
+.navbar-default .navbar-right  li  a:hover, .navbar-default .navbar-right  li  a:focus {
+    color:#1DE9B6;
 }
 .navbar-default .navbar-toggle{
   margin-top: 15px;
@@ -41,7 +42,9 @@ body {
   background-color:white;
 }
 
-
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color:#1DE9B6;
+}
 .navbar-default .navbar-brand {
   margin-top: 10px;
   font-size: 125%;
@@ -50,6 +53,7 @@ body {
 }
 
 .nav{
+  text-align: center;
  margin-right:10px;
 }
 
@@ -72,13 +76,13 @@ body {
 
 }
 .header h1{
-  font-size: 200%;
+  font-size: 250%;
 
 }
 
 .header p {
   font-size: 175%;
- 
+
 }
 
 .img-circle {
@@ -109,6 +113,3 @@ background-color:;
   background-color:;
   height: 200px;
   width:100%;
-
-
-
