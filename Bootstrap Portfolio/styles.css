@@ -19,6 +19,7 @@ body {
   border-style: none;
     background-color: #01579B ;
 
+/* Navbar */
 }
 .navbar-default{
   border-style: none;
@@ -45,6 +46,28 @@ body {
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
     color:#1DE9B6;
 }
+
+/* Navbar 'about' Hover */
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  background-color: #01579B;
+  color: white;
+}
+
+/* Navbar Collapsed link font */
+.navbar-default .navbar-nav .open .dropdown-menu>li>a  {
+  color: white;
+  }
+
+ .navbar-default .navbar-nav .open .dropdown-menu{
+    background-color:#01579B;
+  }
+
+
+  .navbar-default .navbar-nav .open .dropdown-menu li a:hover{
+    color:#1DE9B6;
+    background-color:#01579B ;
+  }  
+
 .navbar-default .navbar-brand {
   margin-top: 10px;
   font-size: 125%;
