@@ -5,7 +5,7 @@ html, body, h1, h2, h3, h4, p, div, ul, ol, li {
   font: inherit;
   font-size: 100%;
 }
-* {
+/* {
     border: 1px solid red !important;
 }
 * {
@@ -13,7 +13,7 @@ html, body, h1, h2, h3, h4, p, div, ul, ol, li {
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-}*
+}*/
 
 body {
   border-style: none;
@@ -28,8 +28,9 @@ body {
 .navbar{
   margin-bottom: 5px;
   background-color: #0288D1;
-
 }
+
+
 .navbar-default .navbar-right  li  a:hover, .navbar-default .navbar-right  li  a:focus {
     color:#1DE9B6;
 }
@@ -123,50 +124,78 @@ body {
  .fa-chevron-down{
   margin-top: 30px;
   font-size: 30px;
-  color: #1DE9B6 !important;
+  color: white !important;
 }
 
 .skills{
   background-color: white;
   margin-top: 0px;
- padding-bottom: 40px;
+ padding-bottom: 50px;
 
 }
 
 .skills-header{
-  font-family: "Lato", sans-serif;
-  font-weight: lighter;
-  font-size: 200%;
   margin-left:0px;
+  padding: 50px 0 50px 0px;
+}
+
+.skills-header h1{
+  font-family: "Varela Round", sans-serif;
+  font-size: 240%;
+  color: #2c3e50;
+}
+
+.skills-header h4{
+  font-family: "Lato", sans-serif;
+  font-size: 150%;
+  font-weight: lighter;
   color: #546E7A;
-  padding: 30px 0 40px 0px;
+  margin-top: 10px;
+}
+
+.skills h2 {
+  font-family: "Varela Round", sans-serif;
+  color: #2c3e50;
+  font-size: 160%;
+  margin-top: 15px;
+}
+
+.skills p{
+    font-family: "Lato", Helvetica Neue;
+    font-size: 110%;
+    font-weight: lighter;
+    color: #546E7A;
+    margin-top: 20px;
+    padding:  5px 5px 5px 5px;
+    line-height: 1.4;
 }
 
 .fa {
-  color: #546E7A;
+  margin-top: 30px;
+  color: #2c3e50;
 }
 
 .skills-box1{
-background-color: pink;
+
 
 }
 
-.fa-html5{
-  font-size: 120px;
+.fa-lightbulb-o{
+  font-size: 80px;
 }
 
 .skills-box2{
 
 }
-.fa-css3{
-  font-size: 120px;
+.fa-desktop{
+  font-size: 80px;
 }
 
 .skills-box3{
   
 }
-.fa-github-alt{
-  font-size: 120px;
+.fa-code{
+  font-size: 80px;
 }
 
 
