@@ -66,14 +66,10 @@ body {
     margin-top: 120px;
     font-size: 30px;
     color: white;
-    display: block;
     text-align: center;
     opacity: .6;
 }
  
- .header a:hover { /*No decoration on the chevron*/
-    text-decoration: none !important;
- }
 
 
 .skills {
