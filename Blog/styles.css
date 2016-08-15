@@ -15,7 +15,7 @@ body {
 }
 
 .img-header {
-    background: linear-gradient( rgba(90, 90, 90, 0.3), rgba(50, 50, 40, 0.5) ), url('images/wrapper.jpg');
+    background: linear-gradient( rgba(90, 90, 90, 0.3), rgba(50, 50, 40, 0.6) ), url('images/wrapper.jpg');
     height: 100vh;
     position: relative;
     width: 100%;
@@ -62,7 +62,7 @@ body {
 }
 
 
-.header .fa-chevron-down {
+.header .fa-angle-double-down {
     margin-top: 120px;
     font-size: 30px;
     color: white;
@@ -72,17 +72,77 @@ body {
  
 
 
-.skills {
+.skills{
     background-color: white;
-    height: 300px; /*only for now to see height*/
+    padding: 50px 0px 70px 0px;
 }
 
+.skills-header h1 {
+    color: #323232;
+    font-family: "Varela Round","Helvetica-Neue";
+    font-weight: 400;
+    font-size: 2.5em;
+    margin-top: 30px;
+}
 
-.skills h3 {
+.skills-header h3 {
     color: #323232;
     font-family: "Lato","Helvetica-Neue";
     font-weight: 400;
-    font-size: 2.5em;
+    font-size: 1.4em;
+    margin-top: 10px;
+    opacity: .9;
+}
+
+.skills-box1 .fa-lightbulb-o {
+    padding-top: 10px;
+    font-size: 6.5em;
+
+}
+
+.skills-box1 {
+margin-top: 60px;
+}
+
+.skills-box2 .fa-desktop {
+    padding-top: 15px;
+    font-size:6.7em;
+}
+
+.skills-box2 h2{
+    margin-top: 14px;
+}
+
+.skills-box2 {
+margin-top: 60px;
+}
+
+.skills-box3 .fa-code{
+    font-size: 6.5em;
+    padding-top: 10px;
+}
+
+.skills-box3 {
+margin-top: 60px;
+}
+
+.skills h2{
+    font-family: "Varela Round","Helvetica-Neue";
+    color:#323232;
+}
+
+.skills p {
+    color: #546E7A;
+    font-family: "Lato","Helvetica-Neue";
+    font-weight:lighter;
+    font-size: 1.3em;
+    padding:  5px 10px 5px 10px;
+    line-height: 1.4;
+
+}
+
+.work {
+    height: 300px;
 }
 
 
